@@ -8,10 +8,15 @@ if (a > b)
 {
      max = a;
      min = b;
+     Console.WriteLine($"макс = {max}, минимальное = {min}");
 }
 else 
 {
      max = b;
      min = a;
+     Console.WriteLine($"макс = {max}, минимальное = {min}");
 }
-Console.WriteLine($"макс = {max}, минимальное = {min}");
+if ( a == b )
+{
+     Console.WriteLine("первое число равно второму");
+}
